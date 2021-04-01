@@ -255,6 +255,8 @@ Return<void> FingerprintInscreen::setCallback(const sp<IFingerprintInscreenCallb
         std::lock_guard<std::mutex> _lock(mCallbackLock);
         mCallback = callback;
     }
+
+    return Void();
 }
 
 }  // namespace implementation
