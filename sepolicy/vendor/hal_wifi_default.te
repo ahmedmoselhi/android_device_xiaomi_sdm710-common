@@ -1,0 +1,2 @@
+get_prop(hal_wifi_default,vendor_default_prop)
+set_prop(hal_wifi_default,vendor_default_prop)
