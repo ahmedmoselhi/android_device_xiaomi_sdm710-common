@@ -1,2 +1,4 @@
 # Allow access to the qteeconnector
 hal_client_domain(hal_secure_element_default, vendor_hal_qteeconnector)
+
+allow hal_secure_element default_android_hwservice : hwservice_manager {find add};

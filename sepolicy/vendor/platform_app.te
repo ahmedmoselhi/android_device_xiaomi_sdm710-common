@@ -1,0 +1,4 @@
+allow platform_app time_daemon:unix_stream_socket connectto;
+# allow platform_app default_android_service : service_manager { find read open ioctl add getattr };
+allow platform_app default_android_service : hwservice_manager find;
+allow platform_app default_android_hwservice : hwservice_manager find;

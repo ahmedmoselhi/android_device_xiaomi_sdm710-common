@@ -1,3 +1,6 @@
+#Bluetooth
+dev.properties.                        u:object_r:vendor_bluetooth_prop:s0
+
 # Camera
 camera.                     u:object_r:camera_prop:s0
 persist.camera.             u:object_r:camera_prop:s0
@@ -41,6 +44,9 @@ persist.vendor.sys.provision.status      u:object_r:vendor_tee_listener_prop:s0
 # NFC
 persist.nfc.               u:object_r:nfc_prop:s0
 
+#Persist
+persist.ppd.fde.config     u:object_r:default_prop:s0
+
 # Recovery
 ro.build.expect.           u:object_r:exported_default_prop:s0
 
@@ -50,3 +56,6 @@ persist.sensor.sardisable  u:object_r:sensors_prop:s0
 # Thermal
 persist.sys.thermal.       u:object_r:thermal_engine_prop:s0
 sys.thermal.               u:object_r:thermal_engine_prop:s0
+
+#Wlan
+vendor.wlan.firmware.version      u:object_r:vendor_default_prop:s0
